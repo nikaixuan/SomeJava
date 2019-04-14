@@ -15,10 +15,13 @@ public class TestObject {
 //        type1.set(10); //valid and autoboxing support
 //        System.out.println(type1.get());
         Stu stu = new Stu("abc",20);
+        Stu stutest = stu;
+        System.out.println("The object is "+ stutest);
         List list = new ArrayList<>();
         list.add(stu);
         stu.setName("aaaaaaa");
         System.out.println(list.get(0));
+        System.out.println("The object now is "+ stutest);
 //        TestObject testObject = new TestObject();
 //        testObject.mod(stu);
 //        System.out.println(stu);

@@ -16,6 +16,10 @@ public class Stu {
         this.name = newname;
     }
 
+    public String getName(){
+        return name;
+    }
+
     public void eat(){
         System.out.println("Eating");
     }
