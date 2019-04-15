@@ -23,44 +23,44 @@ public class Test {
 
 
     public static void main(String[] args){
-//        MyService myService1 = new MyService();
+        MyService myService1 = new MyService();
 
-//        SynchronizedTest test1 = new SynchronizedTest();
-//        SynchronizedTest test2 = new SynchronizedTest();
-//        Thread thread1 = new Thread(new ThreadA(test1));
-//        Thread thread2 = new Thread(new ThreadB(test1));
-//        thread1.start();
-//        thread2.start();
+        SynchronizedTest test1 = new SynchronizedTest();
+        SynchronizedTest test2 = new SynchronizedTest();
+        Thread thread1 = new Thread(new ThreadA(test1));
+        Thread thread2 = new Thread(new ThreadB(test1));
+        thread1.start();
+        thread2.start();
 
-//        String a  = "test";
-//        String b = "TEST";
-//        System.out.println(a+1);
-//        ExecutorService pool = Executors.newCachedThreadPool();
-//        HashMap hashMap = new HashMap();
-//        int val;
-//        Random r = new Random();
-//        for (int i=0; i<100000; i++) {
-//            val = r.nextInt(100);
-//            hashMap.put(String.valueOf(i), val);
-//        }
-//        System.out.println(hashMap.hashCode());
+        String a  = "test";
+        String b = "TEST";
+        System.out.println(a+1);
+        ExecutorService pool = Executors.newCachedThreadPool();
+        HashMap hashMap = new HashMap();
+        int val;
+        Random r = new Random();
+        for (int i=0; i<100000; i++) {
+            val = r.nextInt(100);
+            hashMap.put(String.valueOf(i), val);
+        }
+        System.out.println(hashMap.hashCode());
 
-//        ArrayList<Stu> stuArrayList = new ArrayList<>();
-//        Stu stu1 = new Stu("a",20);
-//        Stu stu2 = new Stu("b", 30);
-//        stuArrayList.add(stu1);
-//        stuArrayList.add(stu2);
-//        for (Stu stu: stuArrayList){
-//            System.out.println(stu);
-//        }
-
-
+        ArrayList<Stu> stuArrayList = new ArrayList<>();
+        Stu stu1 = new Stu("a",20);
+        Stu stu2 = new Stu("b", 30);
+        stuArrayList.add(stu1);
+        stuArrayList.add(stu2);
+        for (Stu stu: stuArrayList){
+            System.out.println(stu);
+        }
 
 
-//        char end  = 33;
-//        int start = 1;
-//        System.out.println(end);
-//        System.out.println(start+end);
+
+
+        char end  = 33;
+        int start = 1;
+        System.out.println(end);
+        System.out.println(start+end);
 
     }
 }
