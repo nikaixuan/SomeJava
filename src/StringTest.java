@@ -10,8 +10,8 @@ public class StringTest {
     }
 
      public static void main(String[] args){
-//         List<String> a = new ArrayList<>();
-//         List<String> b = new ArrayList<>();
+//         List<stringproblem> a = new ArrayList<>();
+//         List<stringproblem> b = new ArrayList<>();
 //         a.add("abcd");
 //         b.add("bacd");
 //         a.add("abcdf");

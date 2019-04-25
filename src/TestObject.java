@@ -26,6 +26,9 @@ public class TestObject {
 //        TestObject testObject = new TestObject();
 //        testObject.mod(stu);
 //        System.out.println(stu);
+        String t1 = "Come";
+        String t2 = "come";
+        System.out.println(t1.equals(t2));
     }
 
     public void mod(Stu stu){

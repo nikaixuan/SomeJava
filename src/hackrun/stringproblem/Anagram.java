@@ -1,4 +1,4 @@
-package Hackrun;
+package hackrun.stringproblem;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

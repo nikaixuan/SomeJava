@@ -1,31 +1,30 @@
-package Hackrun;
+package hackrun.naiveproblem;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
  * Created by nikaixuan on 17/4/19.
  */
-public class Sock {
-    // Complete the sockMerchant function below.
-    static int sockMerchant(int n, int[] ar) {
-        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
-        for(int i=0;i<ar.length;i++){
-            if(map.containsKey(ar[i])){
-                map.put(ar[i],map.get(ar[i])+1);
-            }else{
-                map.put(ar[i],1);
-            }
-        }
+public class JumpingOnClouds {
+    // Complete the jumpingOnClouds function below.
+    static int jumpingOnClouds(int[] c) {
         int result = 0;
-        for(Map.Entry<Integer,Integer> entry: map.entrySet()){
-            result+=(entry.getValue()/2);
+        for(int i=0;i<c.length;){
+            if(i==c.length-1) break;
+            if(i+2<c.length&&c[i+2]!=1){
+                result++;
+                i+=2;
+            }else{
+                i++;
+                result++;
+            }
+
         }
         return result;
+
     }
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -36,17 +35,17 @@ public class Sock {
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        int[] ar = new int[n];
+        int[] c = new int[n];
 
-        String[] arItems = scanner.nextLine().split(" ");
+        String[] cItems = scanner.nextLine().split(" ");
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         for (int i = 0; i < n; i++) {
-            int arItem = Integer.parseInt(arItems[i]);
-            ar[i] = arItem;
+            int cItem = Integer.parseInt(cItems[i]);
+            c[i] = cItem;
         }
 
-        int result = sockMerchant(n, ar);
+        int result = jumpingOnClouds(c);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();

@@ -1,4 +1,4 @@
-package Hackrun;
+package hackrun.naiveproblem;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
