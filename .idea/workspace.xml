@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e846f9-66cf-4900-85bc-21ff9d07df56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/arrayproblem/ArrayManipulation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/arrayproblem/LeftRotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/arrayproblem/NewYearChaos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/mapproblem/MagazineNote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/naiveproblem/CountingValley.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/naiveproblem/JumpingOnClouds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/naiveproblem/RepeatedString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/naiveproblem/Sock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/stringproblem/AlterChar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/stringproblem/Anagram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/stringproblem/LonggestCommonSubseq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/stringproblem/SpecialPalindrome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/stringproblem/ValidString.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/AlterChar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/Anagram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/ArrayManipulation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/CountingValley.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/JumpingOnClouds.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/LeftRotation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/NewYearChaos.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/RepeatedString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/Sock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hackrun/ValidString.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/StringTest.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/StringTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/TestObject.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/TestObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/mapproblem/TwoStrings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hackrun/HourglassSum.java" afterPath="$PROJECT_DIR$/src/Hackrun/HourglassSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringTest.java" afterPath="$PROJECT_DIR$/src/StringTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestObject.java" afterPath="$PROJECT_DIR$/src/TestObject.java" />
     </list>
     <ignored path="MultiThreadEx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,12 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HourglassSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hackrun/HourglassSum.java">
+      <file leaf-file-name="HourglassSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackrun/arrayproblem/HourglassSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57865167">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hackrun/mapproblem/TwoStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47974414">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,18 +87,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="39" column="1" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hackrun/stringproblem/ValidString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,6 +213,8 @@
         <option value="$PROJECT_DIR$/src/hackrun/naiveproblem/CountingValley.java" />
         <option value="$PROJECT_DIR$/src/hackrun/naiveproblem/JumpingOnClouds.java" />
         <option value="$PROJECT_DIR$/src/hackrun/naiveproblem/RepeatedString.java" />
+        <option value="$PROJECT_DIR$/src/hackrun/arrayproblem/HourglassSum.java" />
+        <option value="$PROJECT_DIR$/src/hackrun/mapproblem/TwoStrings.java" />
       </list>
     </option>
   </component>
@@ -359,73 +334,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stringproblem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackrun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="naiveproblem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackrun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="mapproblem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MultiThreadEx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackrun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrayproblem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,9 +356,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hackrun/arrayproblem" />
       <recent name="$PROJECT_DIR$/src/hackrun/naiveproblem" />
       <recent name="$PROJECT_DIR$/src/hackrun/mapproblem" />
-      <recent name="$PROJECT_DIR$/src/hackrun/arrayproblem" />
       <recent name="$PROJECT_DIR$/src/hackrun/stringproblem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -1002,12 +911,12 @@
       <workItem from="1555380946517" duration="203000" />
       <workItem from="1555384199119" duration="4288000" />
       <workItem from="1555470688784" duration="12854000" />
-      <workItem from="1556026495602" duration="4937000" />
+      <workItem from="1556026495602" duration="5634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72249000" />
+    <option name="totallyTimeSpent" value="72946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1030,7 +939,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1125,14 +1034,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ThreadA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1576,11 +1477,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackrun/HourglassSum.java">
+    <entry file="file://$PROJECT_DIR$/src/hackrun/arrayproblem/HourglassSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57865167">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackrun/mapproblem/TwoStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47974414">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
