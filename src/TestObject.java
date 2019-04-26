@@ -1,5 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Created by nikaixuan on 12/4/19.
@@ -23,12 +24,14 @@ public class TestObject {
         stu.setName("aaaaaaa");
         System.out.println(list.get(0));
         System.out.println("The object now is "+ stutest);
-//        TestObject testObject = new TestObject();
-//        testObject.mod(stu);
-//        System.out.println(stu);
-        String t1 = "Come";
-        String t2 = "come";
-        System.out.println(t1.equals(t2));
+        String bcn = "hgfqweasd";
+        char[] sad ;
+        sad = bcn.toCharArray();
+        Arrays.sort(sad);
+        System.out.println(String.valueOf(sad));
+
+
+
     }
 
     public void mod(Stu stu){
