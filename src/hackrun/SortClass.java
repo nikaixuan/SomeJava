@@ -1,5 +1,7 @@
 package hackrun;
 
+import java.util.Arrays;
+
 /**
  * Created by nikaixuan on 28/4/19.
  */
@@ -8,6 +10,7 @@ public class SortClass {
     public static void main(String[] args){
         int[] testArr = {4,2,1,6,8,7,3,5};
         print(insertionSort(testArr));
+        print(testArr);
         System.out.println();
         print(buddleSort(testArr));
         System.out.println();
@@ -16,6 +19,9 @@ public class SortClass {
         print(shellSort(testArr));
         System.out.println();
         print(quickSort(testArr,0,testArr.length-1));
+        System.out.println();
+        mergeSort(testArr);
+        System.out.println(Arrays.toString(testArr));
 
     }
 
@@ -130,6 +136,47 @@ public class SortClass {
         arr[left] = arr[basic_index];
         arr[basic_index] = base;
         return basic_index;
+    }
+
+    public static void mergeSort(int[] arr){
+        int[] copy = Arrays.copyOf(arr, arr.length);
+        mergeSort(arr,copy,0,arr.length-1);
+    }
+
+    private static void mergeSort(int[] arr, int[] copy, int left, int right){
+
+        if (left<right){
+            int mid = (left+right)/2;
+            mergeSort(arr,copy,left,mid);
+            mergeSort(arr,copy,mid+1,right);
+            merge(arr,copy,left,mid,right);
+        }
+    }
+
+    private static void merge(int[] arr, int[] copy, int left, int mid, int right){
+
+        int s1 = left;
+        int s2 = mid+1;
+        int index = left;
+
+        while(s1<=mid&&s2<=right){
+            if (copy[s1]>copy[s2]){
+                arr[index++] = copy[s2++];
+            }else {
+                arr[index++] = copy[s1++];
+            }
+        }
+        while (s1<=mid){
+            arr[index++] = copy[s1++];
+        }
+
+        while(s2<=right){
+            arr[index++] = copy[s2++];
+        }
+
+        for (int i = left; i <= right; i++) {
+            copy[i] = arr[i];
+        }
     }
 
 }
