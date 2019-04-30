@@ -1,27 +1,29 @@
 package hackrun;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * Created by nikaixuan on 28/4/19.
  */
 public class SortClass {
 
+
     public static void main(String[] args){
         int[] testArr = {4,2,1,6,8,7,3,5};
         print(insertionSort(testArr));
         print(testArr);
-        System.out.println();
-        print(buddleSort(testArr));
-        System.out.println();
-        print(selectionSort(testArr));
-        System.out.println();
-        print(shellSort(testArr));
-        System.out.println();
-        print(quickSort(testArr,0,testArr.length-1));
-        System.out.println();
-        mergeSort(testArr);
-        System.out.println(Arrays.toString(testArr));
+//        System.out.println();
+//        print(buddleSort(testArr));
+//        System.out.println();
+//        print(selectionSort(testArr));
+//        System.out.println();
+//        print(shellSort(testArr));
+//        System.out.println();
+//        print(quickSort(testArr,0,testArr.length-1));
+//        System.out.println();
+//        mergeSort(testArr);
+//        System.out.println(Arrays.toString(testArr));
 
     }
 

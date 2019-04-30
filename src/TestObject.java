@@ -7,6 +7,7 @@ import java.util.*;
  */
 public class TestObject {
 
+
     public static void main(String[] args){
         GenericType<String> type = new GenericType<>();
         type.set("Pankaj"); //valid
@@ -29,9 +30,15 @@ public class TestObject {
         sad = bcn.toCharArray();
         Arrays.sort(sad);
         System.out.println(String.valueOf(sad));
+        int testss = 10;
+        add(testss);
+        System.out.println(testss);
 
 
+    }
 
+    public static void add(int a){
+        a++;
     }
 
     public void mod(Stu stu){

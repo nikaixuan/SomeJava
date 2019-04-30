@@ -19,6 +19,7 @@ public class GenericType<Y> {
         GenericType type1 = new GenericType(); //raw type
         type1.set("Pankaj"); //valid
         type1.set(10); //valid and autoboxing support
+        type1.set(new Object());
         System.out.println(type1.get());
 
     }
