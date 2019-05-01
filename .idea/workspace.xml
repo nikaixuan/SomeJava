@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e846f9-66cf-4900-85bc-21ff9d07df56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classload/Classload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/classload/SubClassLoad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/ScannerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/innerclass/Outer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lambda/FunctionJava.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/GenericType.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/GenericType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/TestObject.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/TestObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/hackrun/SortClass.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/hackrun/SortClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackrun/HashMapSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MultiThreadEx/BitOperation.class" afterPath="$PROJECT_DIR$/out/production/MultiThreadEx/BitOperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GenericType.java" afterPath="$PROJECT_DIR$/src/GenericType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestObject.java" afterPath="$PROJECT_DIR$/src/TestObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hackrun/SortClass.java" afterPath="$PROJECT_DIR$/src/hackrun/SortClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitOperation.java" afterPath="$PROJECT_DIR$/src/BitOperation.java" />
     </list>
     <ignored path="MultiThreadEx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,16 +39,6 @@
                 <element signature="e#1050#1051#0" expanded="true" />
                 <element signature="e#1084#1085#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenericType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GenericType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,11 +92,22 @@
       <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BitOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4477612">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.5842217">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#756#764#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackrun/HashMapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hackrun/stringproblem/Anagram.java" />
         <option value="$PROJECT_DIR$/src/hackrun/stringproblem/AlterChar.java" />
         <option value="$PROJECT_DIR$/src/hackrun/stringproblem/LonggestCommonSubseq.java" />
         <option value="$PROJECT_DIR$/src/hackrun/stringproblem/SpecialPalindrome.java" />
@@ -199,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/hackrun/SortClass.java" />
         <option value="$PROJECT_DIR$/src/lambda/FunctionJava.java" />
         <option value="$PROJECT_DIR$/src/hackrun/ScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/hackrun/HashMapSort.java" />
         <option value="$PROJECT_DIR$/src/BitOperation.java" />
       </list>
     </option>
@@ -333,7 +325,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/algs4/algs4.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/how2j/tmall_springboot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -348,26 +340,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.BitOperation">
-    <configuration default="false" name="FunctionJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lambda.FunctionJava" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MultiThreadEx" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="TestObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestObject" />
@@ -426,6 +398,26 @@
     <configuration default="false" name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BitOperation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MultiThreadEx" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HashMapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="hackrun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="hackrun.HashMapSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -876,19 +868,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FunctionJava" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestObject" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SortClass" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ScannerTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BitOperation" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestObject" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SortClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ScannerTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BitOperation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HashMapSort" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.BitOperation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ScannerTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SortClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestObject" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FunctionJava" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HashMapSort" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ScannerTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SortClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestObject" />
       </list>
     </recent_temporary>
   </component>
@@ -909,12 +901,12 @@
       <workItem from="1555384199119" duration="4288000" />
       <workItem from="1555470688784" duration="12854000" />
       <workItem from="1556026495602" duration="25607000" />
-      <workItem from="1556360474424" duration="24598000" />
+      <workItem from="1556360474424" duration="32035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117517000" />
+    <option name="totallyTimeSpent" value="124954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,11 +925,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32837838" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1116,16 +1108,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hackrun/stringproblem/SpecialPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hackrun/stringproblem/ValidString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1340,19 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.14253394">
-          <caret line="3811" column="8" selection-start-line="3811" selection-start-column="8" selection-end-line="3811" selection-end-column="8" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="false" />
-            <element signature="e#177054#177055#0" expanded="false" />
-            <element signature="e#177353#177354#0" expanded="false" />
-            <element signature="e#177410#177411#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/bridge/RedColor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1402,8 +1371,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1467,29 +1436,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GenericType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/innerclass/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding>
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1108#1109#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1588,12 +1536,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitOperation.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1961621">
+          <caret line="3811" column="8" selection-start-line="3811" selection-start-column="8" selection-end-line="3811" selection-end-column="8" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4477612">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/innerclass/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackrun/HashMapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BitOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5842217">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#756#764#0" expanded="true" />
           </folding>
         </state>
       </provider>
