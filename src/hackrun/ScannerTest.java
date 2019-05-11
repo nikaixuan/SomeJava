@@ -3,6 +3,7 @@ package hackrun;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -20,8 +21,5 @@ public class ScannerTest {
         for (int i=1;i<101;i++){
             System.out.println((i%15==0)?"FizzBuzz":(i%5==0)?"Buzz":(i%3==0)?"Fizz":String.valueOf(i));
         }
-
-
-
     }
 }

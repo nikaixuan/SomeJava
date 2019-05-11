@@ -24,6 +24,8 @@ public class SortClass {
 //        System.out.println();
 //        mergeSort(testArr);
 //        System.out.println(Arrays.toString(testArr));
+        int[] testarr2={1,3,4,5,6,7,12,15,17};
+        System.out.println(binarySearch(testarr2,12));
 
     }
 
@@ -179,6 +181,23 @@ public class SortClass {
         for (int i = left; i <= right; i++) {
             copy[i] = arr[i];
         }
+    }
+
+    public static int binarySearch(int[] arr, int n){
+        Arrays.sort(arr);
+        int low = 0;
+        int high = arr.length-1;
+        while(low<high){
+            int mid = low+(low+high)/2;
+            if (n<arr[mid]){
+                high = mid-1;
+            }else if(n>arr[mid]){
+                low = mid+1;
+            }else {
+                return mid;
+            }
+        }
+        return -1;
     }
 
 }
