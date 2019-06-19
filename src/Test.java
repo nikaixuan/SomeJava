@@ -62,5 +62,16 @@ public class Test {
         System.out.println(end);
         System.out.println(start+end);
 
+        int[] abf = {1,2,3,4,5,3};
+        sorts(abf);
+
+
+    }
+
+    public static void sorts(int[] nums){
+        int[] a = nums.clone();
+        Arrays.sort(a);
+        System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(a));
     }
 }

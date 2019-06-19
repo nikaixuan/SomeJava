@@ -1,7 +1,6 @@
 package hackrun;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.util.*;
 
 /**
  * Created by nikaixuan on 28/4/19.
@@ -12,6 +11,10 @@ public class SortClass {
     public static void main(String[] args){
         int[] testArr = {4,2,1,6,8,7,3,5};
         print(insertionSort(testArr));
+        String s = "abcdefg";
+        int k = 2;
+        reverseStr(s,k);
+
         print(testArr);
 //        System.out.println();
 //        print(buddleSort(testArr));
@@ -26,6 +29,7 @@ public class SortClass {
 //        System.out.println(Arrays.toString(testArr));
         int[] testarr2={1,3,4,5,6,7,12,15,17};
         System.out.println(binarySearch(testarr2,12));
+
 
     }
 
@@ -59,6 +63,8 @@ public class SortClass {
             }
         }
 
+
+
         //Another implementation
 //        for (int i=0;i<arr.length-1;i++){
 //            for(int j=i+1;j<arr.length;j++){
@@ -91,7 +97,6 @@ public class SortClass {
     }
 
     public static int[] shellSort(int[] arr){
-
         int gap = arr.length;
         while (gap>1){
             gap = gap/3+1;
@@ -123,7 +128,6 @@ public class SortClass {
     }
 
     private static int partition(int[] arr, int left, int right){
-
         int basic_index = left;
         int base = arr[left];
 
@@ -198,6 +202,57 @@ public class SortClass {
             }
         }
         return -1;
+    }
+
+    public static int[] heapSort(int[] arr){
+        // build heap
+        int len = arr.length;
+        for(int i=len/2-1;i>=0;i--){
+            makeHeap(arr,i,arr.length);
+        }
+
+        for (int j=arr.length-1;j>0;j--){
+            int temp = arr[0];
+            arr[0] = arr[j];
+            arr[j] = temp;
+            makeHeap(arr,0,j);
+        }
+        return arr;
+    }
+
+
+    public static void makeHeap(int[] arr, int i, int len){
+
+        int temp = arr[i];
+        for (int k=i*2+1;k<len;k=k*2+1){
+            if (k+1<len&&arr[k]<arr[k+1]){
+                k=k+1;
+            }
+            if (temp<arr[k]){
+                arr[i] = arr[k];
+                i=k;
+            }else {
+                break;
+            }
+        }
+        arr[i] = temp;
+
+    }
+
+    public static String reverseStr(String s, int k) {
+        char[] arr = s.toCharArray();
+        int i=0;
+        int n=arr.length;
+        while(i<n){
+            int j = Math.min(i+k-1,n-1);
+            while (i < j) {
+                char temp = arr[i];
+                arr[i++] = arr[j];
+                arr[j--] = temp;
+            }
+            i+=k*2;
+        }
+        return new String(arr);
     }
 
 }
